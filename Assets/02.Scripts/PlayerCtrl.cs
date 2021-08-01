@@ -5,15 +5,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerCtrl : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnMove(InputValue value)
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        Vector2 dir = value.Get<Vector2>();
+        Debug.Log($"Move = ({dir.x},{dir.y})");
     }
 }
