@@ -182,7 +182,7 @@ MonoBehaviour:
     m_ActionId: 0a38f433-5dc3-4af9-a21b-ce180fc8a742
     m_ActionName: PlayerActions/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: PC
+  m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerActions
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
